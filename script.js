@@ -1,5 +1,5 @@
 const apiKey = "1127ea5aaddfa00ad5777c43df6366219ab53754"; // Replace with your CryptoPanic API Key
-const apiUrl = `https://cryptopanic.com/api/v1/posts/?auth_token=${apiKey}`;
+const apiUrl = `https://cryptopanic.com/api/v1/posts/?auth_token=${apiKey}&filter=rising&public=true`;
 
 const newsContainer = document.getElementById('news');
 
